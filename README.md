@@ -1,4 +1,4 @@
-# HTML Unit I – Notes & Question Bank
+# HTML
 
 ## 1. Notes on HTML Tags
 
@@ -40,29 +40,27 @@
 
 ---
 
-## 2. Question Bank
+# CSS [ Cascading Style Sheet ]
 
-### Part A – 2 Marks
-1. Define HTML and list its advantages.  
-2. What is the use of `<title>` tag?  
-3. List attributes of `<meta>` tag with example.  
-4. Differentiate `<br>` and `<hr>`.  
-5. Write syntax for creating a hyperlink.  
-6. Write difference between `<b>` and `<strong>`.  
-7. Give an example of `<sub>` and `<sup>`.  
+## Types of CSS
 
-### Part B – 5 Marks
-1. Explain different types of heading tags with examples.  
-2. Write a short note on `<body>` tag and its attributes.  
-3. Discuss the uses and limitations of `<img>` tag.  
-4. Describe `<a>` tag with attributes and examples.  
-5. Explain metadata tags and their importance.  
-6. Compare text formatting tags `<b>`, `<i>`, `<u>`, `<em>`.  
+### External CSS
 
-### Part C – 10 Marks
-1. With examples, explain the structure of an HTML document.  
-2. Discuss all text formatting tags in HTML with examples.  
-3. Compare and contrast block-level and inline elements with examples.  
-4. Write an HTML code to design a webpage that includes heading, paragraph, image, and a hyperlink.  
-5. Explain the importance of SEO-related tags (`<title>`, `<meta>`) with examples.  
-6. Design a sample webpage that demonstrates **bold, italic, underline, highlight, subscript, and superscript** text.  
+An HTML file is styled using an external CSS file, which is connected using the line: 
+
+`<link rel="stylesheet" href="style.css">`
+
+### Internal CSS
+
+An HTML file can be styled using the <style> element, which is typically placed inside the document's <head> section.
+```
+<style>
+  tag {
+    // Attributes
+  }
+</style>
+```
+
+### Inline CSS
+A HTML tag can be styled indivually by using the style attribute.
+`<tag style=""></tag>`
